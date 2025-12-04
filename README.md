@@ -1,1 +1,0 @@
-# Advanced_RN_Candidate_Offline_Resume_Tool.py
