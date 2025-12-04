@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: Advanced_RN_Candidate_Offline_Resume_Tool.py
+    env: python
+    region: ohio
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: 1
